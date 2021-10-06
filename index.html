@@ -1,0 +1,58 @@
+
+<!doctype html>
+<!--[if IE 9]> <html class="ie9 no-js supports-no-cookies" lang="{{ shop.locale }}"> <![endif]-->
+<head>
+    <title>Phillip's Dev Rock</title>
+</head>
+
+<body class="document-body">
+
+
+    <form id="pokemon-form" action="/action_page.php">
+        <label for="pokemon-name">First name:</label>
+        <input type="text" id="pokemon-name" name="pokemon-name"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+      <caption>Pokemon and their levels</caption>
+    <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Image</th>
+            <th>Abilities</th>
+          </tr>
+      </thead>
+      <tbody class="pokemon-table">
+      </tbody>
+    </table>
+
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+
+table, th, td {
+  border: solid 1px #000;
+  padding: 10px;
+}
+
+table {
+    border-collapse:collapse;
+    caption-side:bottom;
+}
+
+caption {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+</style>
+
+<script src="practice.js"></script>
+</body>
+</html>
